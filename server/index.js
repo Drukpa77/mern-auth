@@ -1,6 +1,13 @@
 const express = require('express');
 const dotenv = require('dotenv').config()
 const cors = require('cors')
+const {mongoose} = require('mongoose')
+
+//database connection
+mongoose.connect(process.env.MONGO_URL)
+.then(()=> console.log('Database connected'))
+.catch(()=> console.log('Databse Not connected', err))
+
 
 const app = express();
 
