@@ -1,7 +1,5 @@
 # mern-auth
  LoginSystem (FullStack)
- 
-Short description of your project.
 
 ## Technologies Used
 
@@ -46,8 +44,7 @@ JWT_SECRET=your_jwt_secret
 - Profile management (if applicable)
 
 ## Folder Structure
-/project
-client (React frontend)
-server (Node.js backend)
-README.md
+1. client (React frontend)
+2. server (Node.js backend)
+3. README.md
 
